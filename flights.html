@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flights - Roblox Airline</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Roblox Airline</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="flights.html">Flights</a></li>
+        <li><a href="loyalty.html">Loyalty Program</a></li>
+        <li><a href="book.html">Book a Flight</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="flights">
+    <h2>Our Flights</h2>
+    <p>Check out our flight schedule.</p>
+    <input type="text" id="flight-search" placeholder="Search by destination...">
+    <table id="flight-schedule">
+      <thead>
+        <tr>
+          <th>Flight Number</th>
+          <th>Destination</th>
+          <th>Departure Time</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Flight schedule will be dynamically loaded here -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
