@@ -2,13 +2,13 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
   color: #333;
 }
 
 header {
-  background: linear-gradient(90deg, #0056b3, #003366);
-  color: #fff;
+  background: #ffffff;
+  border-bottom: 2px solid #00aaff; 
   padding: 1em 0;
   text-align: center;
 }
@@ -26,28 +26,39 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #00aaff;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  color: #0077cc;
 }
 
 section {
   padding: 2em;
-  background: #fff;
+  background: #ffffff;
   margin: 1em 0;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  color: #0056b3;
-  border-bottom: 2px solid #0056b3;
+  color: #00aaff; 
+  border-bottom: 2px solid #00aaff;
   padding-bottom: 0.5em;
   margin-bottom: 1em;
+}
+
+h3 {
+  color: #00aaff; 
+  margin-top: 1em;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.6;
 }
 
 form {
@@ -64,7 +75,7 @@ form input, form button, form textarea {
 }
 
 form button {
-  background-color: #0056b3;
+  background-color: #00aaff; 
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -73,7 +84,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #003366;
+  background-color: #0077cc; 
 }
 
 table {
@@ -89,7 +100,7 @@ table, th, td {
 }
 
 th {
-  background-color: #f4f4f4;
+  background-color: #f5f5f5; 
   color: #333;
 }
 
@@ -99,5 +110,22 @@ th {
   background-color: #e0f7fa;
   border: 1px solid #b2ebf2;
   border-radius: 5px;
-  color: #00796b;
+  color: #00aaff;
+}
+
+#highline h2 {
+  color: #00aaff; 
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+#highline h3 {
+  color: #00aaff; 
+  margin-top: 1em;
+}
+
+#highline p {
+  margin-bottom: 1em;
+  line-height: 1.6;
 }
