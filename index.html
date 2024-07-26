@@ -11,84 +11,18 @@
     <h1>Welcome to Roblox Airline</h1>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#flights">Flights</a></li>
-        <li><a href="#loyalty">Loyalty Program</a></li>
-        <li><a href="#book">Book a Flight</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="flights.html">Flights</a></li>
+        <li><a href="loyalty.html">Loyalty Program</a></li>
+        <li><a href="book.html">Book a Flight</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
+
   <section id="home">
     <h2>About Us</h2>
     <p>Welcome to Roblox Airline. We provide the best virtual flying experience!</p>
-  </section>
-  
-  <section id="flights">
-    <h2>Our Flights</h2>
-    <p>Check out our flight schedule.</p>
-    <input type="text" id="flight-search" placeholder="Search by destination...">
-    <table id="flight-schedule">
-      <thead>
-        <tr>
-          <th>Flight Number</th>
-          <th>Destination</th>
-          <th>Departure Time</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Flight schedule will be dynamically loaded here -->
-      </tbody>
-    </table>
-  </section>
-  
-  <section id="loyalty">
-    <h2>Loyalty Program</h2>
-    <p>Join our loyalty program and earn points for exclusive rewards!</p>
-    <form id="loyalty-form">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-      <button type="submit">Join Now</button>
-    </form>
-    <div id="loyalty-message"></div>
-    <div id="loyalty-points"></div>
-    <div id="rewards">
-      <h3>Available Rewards:</h3>
-      <ul>
-        <li>Free Flight (100 points)</li>
-        <li>Priority Boarding (50 points)</li>
-        <li>Extra Luggage (30 points)</li>
-      </ul>
-    </div>
-  </section>
-  
-  <section id="book">
-    <h2>Book a Flight</h2>
-    <form id="booking-form">
-      <label for="username">Roblox Username:</label>
-      <input type="text" id="username" name="username" required>
-      <label for="flight-number">Flight Number:</label>
-      <input type="text" id="flight-number" name="flight-number" required>
-      <button type="submit">Book Now</button>
-    </form>
-    <div id="booking-message"></div>
-    <p>Please ensure you have enough Robux for this transaction. We will direct you to the payment page after booking.</p>
-  </section>
-  
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-    <div id="contact-message"></div>
   </section>
 
   <script src="js/script.js"></script>
