@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Flight - Roblox Airline</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Roblox Airline</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="flights.html">Flights</a></li>
+        <li><a href="loyalty.html">Loyalty Program</a></li>
+        <li><a href="book.html">Book a Flight</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="book">
+    <h2>Book a Flight</h2>
+    <form id="booking-form">
+      <label for="username">Roblox Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="flight-number">Flight Number:</label>
+      <input type="text" id="flight-number" name="flight-number" required>
+      <button type="submit">Book Now</button>
+    </form>
+    <div id="booking-message"></div>
+    <p>Please ensure you have enough Robux for this transaction. We will direct you to the payment page after booking.</p>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
 
